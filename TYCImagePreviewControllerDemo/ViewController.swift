@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import LightImageController
 
 class ViewController: UIViewController {
 
@@ -22,16 +21,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func viewImageButtonPressed(_ sender: Any) {
-        guard let samplePhoto = UIImage(named: "sample-photo") else {
-            return
-        }
+        let samplePhoto = UIImage(named: "sample-photo")!
         let previewController = LightImageController(image: samplePhoto)
         previewController.show(animated: true)
     }
     @IBAction func viewVideoButtonPressed(_ sender: Any) {
-        guard let sampleVideo = Bundle.main.url(forResource: "sample-video", withExtension: "mp4") else {
-            return
-        }
+        let sampleVideo = Bundle.main.url(forResource: "sample-video", withExtension: "mp4")!
         let previewController = LightImageController(videoURL: sampleVideo)
         previewController.show(animated: true)
     }
