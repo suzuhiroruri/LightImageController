@@ -1,0 +1,6 @@
+framework module LightImageController {
+  umbrella header "LightImageController-umbrella.h"
+
+  export *
+  module * { export * }
+}

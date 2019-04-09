@@ -1,0 +1,16 @@
+PODS:
+  - LightImageController (0.1.0)
+
+DEPENDENCIES:
+  - LightImageController (from `../`)
+
+EXTERNAL SOURCES:
+  LightImageController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LightImageController: 191d528c9aace91b65a7a996f0a3e4cf86b2b432
+
+PODFILE CHECKSUM: 0161b23ad1735e94d98b646526484c9cd7ab86f4
+
+COCOAPODS: 1.6.1
