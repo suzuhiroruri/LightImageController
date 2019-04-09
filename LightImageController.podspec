@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "LightImageController"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Simple image and video previewer"
   spec.homepage     = "https://github.com/suzuhiroruri/LightImageController"
   spec.license      = "MIT"
