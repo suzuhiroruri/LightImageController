@@ -1,4 +1,4 @@
-# TYCImagePreviewController
+# LightImageController
 
 Simple drop-n-go solution for previewing image or video.
 
@@ -15,11 +15,11 @@ Simple drop-n-go solution for previewing image or video.
 
 ## Demo
 
-Build and run the `TYCImagePreviewControllerDemo` project in Xcode.
+Build and run the `LightControllerDemo` project in Xcode.
 
 ## Installation
 
-Drag `TYCImagePreviewController.swift` into your project. That's it.
+Drag `LightPreviewController.swift` into your project. That's it.
 
 ## Example Usage
 
@@ -46,12 +46,10 @@ Open an issue or submit a pull request.
 
 ## Contact
 
-Tim Chen
+Hiromasa Suzuki
 
-- https://www.linkedin.com/in/timychen12
-- https://www.facebook.com/timychen12
-- timychen12@gmail.com
+- suzuhiroruri@gmail.com
 
 ## License
 
-TYCImagePreviewController is available under the MIT license. See the LICENSE file for more info.
+LightImageController is available under the MIT license. See the LICENSE file for more info.
